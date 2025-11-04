@@ -1,0 +1,33 @@
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+    width: 250px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.inputWrapper:focus-within {
+    border-color: #469cf9;
+    box-shadow: 0 0 0 1px #469cf9;
+}
+
+.input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    min-width: 0;
+}
+
+.clearButton,
+.toggleButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
